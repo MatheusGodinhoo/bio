@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matheus Godinho — Foto e Vídeo</title>
+  <meta name="description" content="Matheus Godinho — Foto e Vídeo. Agende seu horário pelo WhatsApp.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 16px;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+
+    /* Banner + botão clicável */
+    .banner {
+      position: relative;
+      width: 100%;
+      max-width: 720px;   /* ajuste aqui se quiser maior/menor */
+      line-height: 0;     /* remove espaço extra embaixo da imagem */
+    }
+    .banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Área clicável sobre o botão "AGENDE SEU HORÁRIO" */
+    .btn-agenda {
+      position: absolute;
+      left: 55.5%;
+      top: 48.5%;
+      width: 29.2%;
+      height: 15%;
+      border-radius: 10px;
+      z-index: 2;
+      background: transparent;
+      cursor: pointer;
+      -webkit-tap-highlight-color: rgba(255, 221, 128, 0.35);
+      transition: background .15s ease, box-shadow .15s ease;
+    }
+    .btn-agenda:hover,
+    .btn-agenda:focus-visible {
+      background: rgba(255, 255, 255, 0.10);
+      box-shadow: 0 0 0 3px rgba(255, 221, 128, 0.85);
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <img src="b3.png" alt="Matheus Godinho — Foto e Vídeo. Agende seu horário.">
+    <a class="btn-agenda"
+       href="https://w.app/godinhofotovideo"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Agende seu horário pelo WhatsApp"></a>
+  </div>
+</body>
+</html>
